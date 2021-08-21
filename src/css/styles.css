@@ -1,7 +1,6 @@
 /* Variables */
-
 :root {
-  --main-font: 'Oswald', sans-serif;
+  --main-font: 'Cairo', sans-serif;
   --secondary-color: #940bb0;
   --black-color: #000000;
   --white-color: #ffffff;
@@ -9,7 +8,7 @@
   --function: cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Ligthbox options: */
-  --lightbox__background: rgba(0, 0, 0, 0.8); /*Background color*/
+  --lightbox__background: rgba(0, 0, 0, 0.8); /* Background color*/
   --lightbox__zIndex: 1000; /* Stack order*/
   --lightbox__duration: 0.4s; /* Transition duration*/
   --lightbox__timing: ease; /* Transition timing*/
@@ -51,7 +50,7 @@ img {
   object-fit: cover;
   cursor: pointer;
   filter: grayscale(50%);
-  transition: filter 200ms var(--tr-func);
+  transition: filter 200ms var(--function);
 }
 img:hover {
   filter: grayscale(1%);
