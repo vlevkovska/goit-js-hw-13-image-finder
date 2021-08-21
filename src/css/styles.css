@@ -37,7 +37,7 @@
 }
 
 .photo-card:hover {
-  border-color: #569404;
+  border-color: #940488;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
@@ -69,7 +69,7 @@ img:hover {
   transition: all var(--duration) var(--function);
 }
 .stats-item:hover {
-  color: #569404;
+  color: #8f0494;
 }
 
 .search-form {
@@ -119,13 +119,13 @@ input {
 }
 
 .search-btn:hover {
-  background-color: #569404;
+  background-color: #770494;
   transition: all var(--duration) var(--function);
 }
 
 /* background style*/
 body {
-  background: linear-gradient(-45deg, #e0cbc5, #e2aec2, #f09de2, #9dd7ec, #a9ecdd);
+  background: linear-gradient(-45deg, #e77248, #e2c5ae, #f0d39d, #ecd79d, #eed70b);
   background-size: 1500% 1500%;
   animation: gradient 15s ease infinite;
 }
