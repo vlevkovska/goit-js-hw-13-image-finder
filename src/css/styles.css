@@ -1,20 +1,18 @@
-@import 'basiclightbox/src/styles/main';
-@import 'native-toast/dist/native-toast.css';
 /* Variables */
+
 :root {
-  --main-font: 'Cairo', sans-serif;
-  --accent-color: #b00b69;
-  --secondary-color: #69b00b;
+  --main-font: 'Oswald', sans-serif;
+  --secondary-color: #940bb0;
   --black-color: #000000;
   --white-color: #ffffff;
-  --tr-dur: 250ms;
-  --tr-func: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
+  --function: cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Ligthbox options: */
-  --basicLightbox__background: rgba(0, 0, 0, 0.8); /* Background color*/
-  --basicLightbox__zIndex: 1000; /* Stack order*/
-  --basicLightbox__duration: 0.4s; /* Transition duration*/
-  --basicLightbox__timing: ease; /* Transition timing*/
+  --lightbox__background: rgba(0, 0, 0, 0.8); /*Background color*/
+  --lightbox__zIndex: 1000; /* Stack order*/
+  --lightbox__duration: 0.4s; /* Transition duration*/
+  --lightbox__timing: ease; /* Transition timing*/
 }
 
 .gallery {
@@ -36,7 +34,7 @@
   border-radius: 5px;
   border: 3px solid var(--black-color);
   animation-duration: 1500ms;
-  transition: all var(--tr-dur) var(--tr-func);
+  transition: all var(--duration) var(--function);
 }
 
 .photo-card:hover {
@@ -69,7 +67,7 @@ img:hover {
   margin: 4px;
   border-radius: 20%;
   cursor: help;
-  transition: all var(--tr-dur) var(--tr-func);
+  transition: all var(--duration) var(--function);
 }
 .stats-item:hover {
   color: #569404;
@@ -118,12 +116,12 @@ input {
   letter-spacing: 0.03em;
   cursor: pointer;
   animation-duration: 1000ms;
-  transition: all var(--tr-dur) var(--tr-func);
+  transition: all var(--duration) var(--function);
 }
 
 .search-btn:hover {
   background-color: #569404;
-  transition: all var(--tr-dur) var(--tr-func);
+  transition: all var(--duration) var(--function);
 }
 
 /* background style*/
